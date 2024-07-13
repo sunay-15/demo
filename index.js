@@ -5,7 +5,7 @@ app.get('/demo',function(req,res) {
  const a = req.query.user
  const b = req.query.pass
 
- if(user==gargi && pass == gargi24)
+ if(user==1 && pass == 5)
  res.send("Access Granted")
 
  else
