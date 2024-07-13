@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.get('/demo',function(req,res) {
+app.get('/',function(req,res) {
  const a = req.query.user
  const b = req.query.pass
 
